@@ -1,21 +1,24 @@
+/* apply styles to all element */
 *{
     box-sizing: border-box;
     max-width: 100%;
     margin: 0;
 }
 
+/* adding styles to the body and HTML */
 html, body{
     background-color: steelblue;
     min-height: 100vh;
     max-height: 100vh;
 }
 
+/* adding padding to maincontainer */
 .mainContainer{
-    max-width: 100%;
     padding: 50px;
 }
 
-.container{
+/* styling the first container in the main container */
+.container1{
     width: 80%;
     background-color: aliceblue;
     margin: 0 auto;
@@ -31,7 +34,6 @@ html, body{
 button{
     cursor: pointer;
     padding: 7px;
-    max-width: 100%;
     font-weight: bolder;
     border-radius: 7px;
 }
@@ -54,7 +56,6 @@ button{
     background-color: steelblue;
     color: aliceblue;
     width: 150px;
-   
 }
 #btn2{
     background-color: aliceblue;
@@ -66,10 +67,9 @@ footer{
     background-color: rgb(125, 148, 172);
     position: fixed;
     bottom: 0;
-    max-width: 100%;
     width: 100%;
     text-align: center;
     padding: 5vh;
-    color:aliceblue
+    color:aliceblue;
 }
 
